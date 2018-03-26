@@ -1,0 +1,188 @@
+* {
+font-family: "Open Sans Condensed", Arial;
+color: white;
+box-sizing: border-box;
+}
+
+.scroll{
+  padding: 2px;
+  margin: 1px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  right: 0;
+  width: 150px;
+  float: right;
+}
+
+
+h1{
+font-size: 40px;
+color: white;
+text-shadow: Arial;
+border: 10px;
+margin: 0px;
+}
+
+img{
+border-radius: 15px;
+padding: 1px;
+content: normal;
+width: 80px;
+height: 80px;
+transition: opacity 1.2s, width 1.2s, height 1.2s, background-color 1.2s;
+}
+
+
+
+.subimg {
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.7s;
+height: 130px;
+      }
+
+
+.subimg:hover {
+background-color: rgba(0, 0, 30, 0.5);
+  }
+
+  .subimg2{
+  border-radius: 15px;
+  font-size: 13px;
+  text-align: center;
+  height: 130px;
+  transition: background-color 0.7s;
+    }
+
+    .subimg2:hover {
+    background-color: rgba(0, 0, 30, 0.5);
+      }
+
+
+body {
+  background-image: url("http://vabeca.com/parte/images/background.jpg");
+  background-position: left;
+  background-repeat: "repeat";
+  background-attachment: fixed;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  }
+
+.firma {
+padding: 9px;
+margin: 0px;
+border: 0px;
+font-family: Arial, serif;
+background-color: #33C4FF;
+height: 75px;
+}
+
+
+.ggg{
+  background-image: url("http://www.roastbrief.com.mx/wp-content/uploads/2014/04/Movistar-marca-valiosa1.jpg");
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.ggg2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*-----------------------------------------------*/
+
+.gallery{
+margin: 1px;
+border: 1px solid #000;
+border-radius: 15px;
+float: left;
+width: 83px;
+height: 132px;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  padding: 0px;
+  float: none;
+}
+
+.encuadrado{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 170px;
+}
+
+.encuadradox2{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 1215px;
+}
+
+.encuadradox3{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 289px;
+  background-color: rgb(0,105,165);
+}
+
+.encuadradox5{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 170px;
+}
+
+.encuadradox6{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 170px;
+}
+
+.encuadradox7{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 215px;
+  background-color: rgb(0,105,165);
+}
+
+
+h3{
+  padding-right: 2px;
+  padding-bottom: 5px;
+}
+
+/*------------------------------------------------------*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 70px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+th {
+  background-color: blue;
+}
